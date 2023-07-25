@@ -114,7 +114,7 @@
           text-decoration: var(
             --collapsing-element-list-item-link-text-decoration
           );
-          white-space: nowrap;
+          white-space: var(--collapsing-element-list-item-link-white-space);
 
           &:before {
             @include icon.icon;

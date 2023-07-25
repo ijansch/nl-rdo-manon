@@ -36,7 +36,7 @@
 
   /* List */
   --collapsing-element-list-gap: 0;
-  --collapsing-element-list-backgound-color: transparent;
+  --collapsing-element-list-background-color: transparent;
 
   /* List item */
   --collapsing-element-list-item-align-items: flex-start;
@@ -59,13 +59,13 @@
 
   /* Link */
   --collapsing-element-list-item-link-justify-content: flex-start;
-  --collapsble-element-list-item-link-text-color: #000;
+  --collapsing-element-list-item-link-text-color: #000;
   --collapsing-element-list-item-link-text-decoration: none;
   --collapsing-element-list-item-link-padding-top: 0;
   --collapsing-element-list-item-link-padding-right: 2rem;
   --collapsing-element-list-item-link-padding-bottom: 0;
   --collapsing-element-list-item-link-padding-left: 2rem;
-
+  --collapsing-element-list-item-link-white-space: nowrap;
   /* Link hover */
   --collapsing-element-list-link-hover-text-decoration: var(
     --collapsing-element-list-item-link-text-decoration

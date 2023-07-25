@@ -3,9 +3,41 @@
 /*---------------------------------------------------------------*/
 @use "button-dropdown-variables";
 
-.dropdown {
-  width: auto;
-  margin: 0;
-  padding: 0;
-  gap: 0;
+.collapsible.dropdown {
+  width: 100%;
+  justify-content: var(--button-dropdown-list-justify-content);
+  border: 1px dashed green;
+
+  button {
+    align-self: var(--button-dropdown-list-justify-content);
+    border: 1px dashed red;
+
+    + .collapsing-element {
+      border: 1px dashed black;
+
+      a {
+        white-space: var(--button-dropdown-list-white-space);
+      }
+    }
+  }
+}
+
+.action-bar {
+  background-color: palegoldenrod;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  gap: 1rem;
+  position: relative;
+
+  .collapsible {
+    width: auto;
+
+    .collapsing-element {
+      width: auto;
+      right: 0;
+      left: auto;
+    }
+  }
 }
